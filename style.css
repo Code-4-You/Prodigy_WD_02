@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #54616c;
+}
+
+.img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.img img{
+
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.img h1{
+    color:#f54a80;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* margin-inline: 110px; */
+    color: white;
+    /* background-color: rgb(51, 46, 46); */
+    padding:20px 0px;
+    border-radius: 20px;
+    
+}
+.time{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.button{
+   
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.button button{
+    margin-right: 30px;
+    font-size: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+button:nth-child(2){
+    background-color: #fc0000;
+}
+
+button:first-child{
+    background-color: #008100;
+}
+
+button:last-child{
+    background-color:#0001fc ;
+}
+
+button:hover:first-child{
+    background-color: rgb(181, 240, 93);
+}
+
+button:hover:nth-child(2){
+    background-color: rgb(244, 109, 111);
+}
+
+button:hover:last-child{
+    background-color: rgb(85, 40, 246);
+}
